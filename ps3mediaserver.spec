@@ -4,7 +4,7 @@ Version:	1.50.0
 Release:	1
 Source0:	http://ps3mediaserver.googlecode.com/files/pms-generic-linux-unix-%{version}.tgz
 Source1:	%{name}.png
-License:	GPL
+License:	propriteary
 Group:		Video
 URL:		http://code.google.com/p/ps3mediaserver/
 BuildArch:	noarch

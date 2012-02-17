@@ -18,9 +18,12 @@ Obsoletes:	%{name} < %{version}
 
 
 %description
-PS3 Media Server is a DLNA compliant Upnp Media Server for the PS3, written in Java, 
-with the purpose of streaming or transcoding any kind of media files, with minimum 
-configuration. It's backed up with the powerful Mplayer/FFmpeg packages. 
+PS3 Media Server is a DLNA compliant 
+Upnp Media Server for the PS3, written in Java, 
+with the purpose of streaming or transcoding
+any kind of media files, with minimum 
+configuration. It's backed up with the
+powerful Mplayer/FFmpeg packages. 
 
 %prep
 %setup -q -n pms-linux-%{version}

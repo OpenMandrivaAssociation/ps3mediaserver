@@ -1,6 +1,6 @@
 Summary:	DLNA compliant Upnp Media Server for the PS3
 Name:		ps3mediaserver
-Version:	1.50.0
+Version:	1.50.1
 Release:	1
 Source0:	http://ps3mediaserver.googlecode.com/files/pms-generic-linux-unix-%{version}.tgz
 Source1:	%{name}.png
@@ -71,7 +71,6 @@ EOF
 %{clean_menus}
 
 %files
-%defattr(-,root,root)
 %doc README CHANGELOG 
 %{_bindir}/%{name}
 %{_datadir}/%{name}

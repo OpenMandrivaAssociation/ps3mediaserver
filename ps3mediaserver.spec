@@ -2,8 +2,8 @@
 # please do not remove it
 
 Name:		ps3mediaserver
-Version:	1.50.1
-Release:	%mkrel 1
+Version:	1.52.1
+Release:	1
 Summary:	DLNA compliant Upnp Media Server for the PS3
 Source0:	http://ps3mediaserver.googlecode.com/files/pms-generic-linux-unix-%{version}.tgz
 Source1:	%{name}.png
@@ -24,7 +24,7 @@ of media files, with minimum configuration. It's backed up with the
 powerful Mplayer/FFmpeg packages.
 
 %prep
-%setup -q -n pms-linux-%{version}
+%setup -q -n pms-%{version}
 
 %build
 echo "Hi, i'm a fake build"
@@ -65,11 +65,8 @@ StartupNotify=true
 Categories=AudioVideo;X-MandrivaLinux-Multimedia-Video;
 EOF
 
-%clean
-%__rm -rf %{buildroot}
-
 %files
-%doc README CHANGELOG
+%doc CHANGELOG
 %{_bindir}/%{name}
 %{_datadir}/%{name}
 %{_datadir}/applications/%{name}.desktop

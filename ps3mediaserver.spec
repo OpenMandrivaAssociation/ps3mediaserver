@@ -1,13 +1,12 @@
-# RPM4 "junk" should be kept in this spec for 2010.2 backports sake,
-# please do not remove it
-
 Name:		ps3mediaserver
 Version:	1.52.1
-Release:	1
+# RPM4 "junk" should be kept in this spec for 2010.2 backports sake,
+# please do not remove it: mkrel
+Release:	%mkrel 1
 Summary:	DLNA compliant Upnp Media Server for the PS3
 Source0:	http://ps3mediaserver.googlecode.com/files/pms-generic-linux-unix-%{version}.tgz
 Source1:	%{name}.png
-License:	propriteary
+License:	Proprietary
 Group:		Video
 URL:		http://code.google.com/p/ps3mediaserver/
 BuildArch:	noarch
@@ -64,6 +63,11 @@ Type=Application
 StartupNotify=true
 Categories=AudioVideo;X-MandrivaLinux-Multimedia-Video;
 EOF
+
+# RPM4 "junk" should be kept in this spec for 2010.2 backports sake,
+# please do not remove it: clean section
+%clean
+%__rm -rf %{buildroot}
 
 %files
 %doc CHANGELOG

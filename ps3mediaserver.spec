@@ -1,20 +1,20 @@
 Name:		ps3mediaserver
-Version:	1.52.1
+Version:	1.53.0
 # RPM4 "junk" should be kept in this spec for 2010.2 backports sake,
 # please do not remove it: mkrel
 Release:	%mkrel 1
 Summary:	DLNA compliant Upnp Media Server for the PS3
+Group:		Video
+License:	Proprietary
+URL:		http://code.google.com/p/ps3mediaserver/
 Source0:	http://ps3mediaserver.googlecode.com/files/pms-generic-linux-unix-%{version}.tgz
 Source1:	%{name}.png
-License:	Proprietary
-Group:		Video
-URL:		http://code.google.com/p/ps3mediaserver/
-BuildArch:	noarch
 BuildRequires:	imagemagick
 Requires:	jre
 Requires:	mencoder
 Requires:	ffmpeg
 Requires:	mplayer
+BuildArch:	noarch
 
 %description
 PS3 Media Server is a DLNA compliant UPnP Media Server for the PS3,

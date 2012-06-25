@@ -31,7 +31,7 @@ echo "Hi, i'm a fake build"
 %install
 %__rm -rf %{buildroot}
 %__install -dm 755 %{buildroot}%{_datadir}/%{name}
-%__cp -af * %{buildroot}%{_datadir}/%{name}
+cp -af * %{buildroot}%{_datadir}/%{name}
 
 %__mkdir -p %{buildroot}%{_bindir}
 %__cat > %{buildroot}%{_bindir}/%{name} << EOF

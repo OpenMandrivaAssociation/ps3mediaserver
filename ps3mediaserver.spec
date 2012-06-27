@@ -1,5 +1,5 @@
 Name:		ps3mediaserver
-Version:	1.53.0
+Version:	1.54.0
 # RPM4 "junk" should be kept in this spec for 2010.2 backports sake,
 # please do not remove it: mkrel
 Release:	%mkrel 1

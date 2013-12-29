@@ -2,7 +2,7 @@ Name:		ps3mediaserver
 Version:	1.70.0
 # RPM4 "junk" should be kept in this spec for 2010.2 backports sake,
 # please do not remove it: mkrel
-Release:	2
+Release:	3
 Summary:	DLNA compliant Upnp Media Server for the PS3
 Group:		Video
 License:	Proprietary	

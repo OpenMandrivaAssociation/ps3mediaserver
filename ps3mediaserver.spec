@@ -6,7 +6,7 @@ Release:	1
 Summary:	DLNA compliant Upnp Media Server for the PS3
 Group:		Video
 License:	Proprietary	
-URL:		http://code.google.com/p/ps3mediaserver/
+URL:		https://code.google.com/p/ps3mediaserver/
 Source0:	http://ps3mediaserver.googlecode.com/files/pms-%{version}-generic-linux-unix.tar.gz
 Source1:	%{name}.png
 BuildRequires:	imagemagick
